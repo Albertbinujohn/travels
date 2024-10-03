@@ -1,0 +1,157 @@
+*{
+    color: rgb(76, 76, 76);
+}
+
+
+.img1{
+    margin-left: 100px;
+}
+
+
+
+.kerala-section{
+
+    width: 100%;
+    height: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+.Card{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(188, 187, 186);
+    
+}
+.Card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 15px rgb(0, 0, 0); 
+    transition: 0.3s;
+}
+
+.img-card{
+    width: 100%;
+    height: 270px;
+
+    
+}
+.heading1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.name{
+    font-weight: bold;
+    margin-left: 30px;
+}
+img{
+    border-radius: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.icons>div{
+    text-align: center;
+}
+.small{
+    font-weight: bold;
+}
+
+.my-buttonn {
+    margin-left: 15px;
+    width: 370px;
+    padding: 10px 20px;
+    background-color: #35b9c3; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer; 
+   
+}
+
+.my-buttonn:hover {
+    transform: translateY(-5px); 
+    background-color: #b92990; 
+    transition: 0.3s;
+    
+}
+
+
+
+
+.div-icooon{
+    
+    margin-left: 1300px;
+    
+  
+}
+
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.icon:hover{
+   background-color: green;
+}
+.icon:hover .brands{
+    color: white;
+
+    animation: rotate 3s;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg);
+    }
+    20%{
+        transform: rotate(-40deg);
+
+    }
+    
+}
+
+
+
+
+
+
+.footer {
+    background-color: #41d8e3;
+    
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+
+
+
+.yHead {
+    margin-bottom: 25px;
+    
+    font-size: 40px;
+}
+
+.foot-list {
+    /* border: solid; */
+    width: 300px;
+    height: 300px;
+    line-height: 2rem;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
